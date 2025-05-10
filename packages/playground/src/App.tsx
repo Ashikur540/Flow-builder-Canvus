@@ -1,11 +1,21 @@
 import "./App.css";
-import { NotificationFlow } from "@notification-flow/sdk";
+import "@notification-flow/sdk/dist/index.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import NotificationsFlowList from "./pages/notifcation-fow-list";
+import EditNotificationFlow from "./pages/edit-flow";
 
 function App() {
 	return (
-		<main>
-			<NotificationFlow />
-		</main>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/notification-flow" element={<NotificationsFlowList />} />
+				<Route
+					path="/notification-flow/:id/edit"
+					element={<EditNotificationFlow />}
+				/>
+			</Routes>
+		</BrowserRouter>
 	);
 }
 

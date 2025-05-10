@@ -10,7 +10,8 @@
 	"exclude": ["node_modules", "dist"],
 	"baseUrl": "./src",
 	"paths": {
-		"@components/*": ["src/components/*"],
-		"@hooks/*": ["src/hooks/*"]
+		"@components/*": ["components/*"],
+		"@hooks/*": ["hooks/*"],
+		"@utils/*": ["utils/*"]
 	}
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import { FlowBuilder } from "./flowBuilder/FlowBuilder";
+import { FlowBuilderCanvas } from "./flowBuilder";
 
 export const NotificationFlow: React.FC = () => {
 	return (
 		<div className="flow-builder-page">
 			<div className="flow-builder-content">
-				<FlowBuilder />
+				<FlowBuilderCanvas />
 			</div>
 		</div>
 	);

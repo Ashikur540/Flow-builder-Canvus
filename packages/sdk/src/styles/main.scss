@@ -1,70 +1,77 @@
-// .notification-flow-wrapper {
-// 	padding: 20px;
-// 	border: 1px solid #e8e8e8;
-// 	border-radius: 8px;
-// 	background-color: #fff;
-// 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+@import "./notif-flow-list.scss";
+@import "./create-flow-modal.scss";
 
-// 	h2 {
-// 		margin-bottom: 8px;
-// 		color: #333;
-// 	}
+/*
+.notification-flow-wrapper {
+	padding: 20px;
+	border: 1px solid #e8e8e8;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 
-// 	p {
-// 		margin-bottom: 20px;
-// 		color: #666;
-// 	}
+	h2 {
+		margin-bottom: 8px;
+		color: #333;
+	}
 
-// 	.notification-flow-actions {
-// 		margin-top: 20px;
-// 		display: flex;
-// 		gap: 10px;
-// 		justify-content: flex-end;
-// 	}
-// }
+	p {
+		margin-bottom: 20px;
+		color: #666;
+	}
 
-// // Node styles
-// .trigger-node,
-// .action-node,
-// .condition-node {
-// 	padding: 10px;
-// 	border-radius: 5px;
-// 	width: 180px;
-// 	font-size: 12px;
-// 	color: #333;
-// 	text-align: center;
-// 	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-// 	background-color: white;
-// 	border: 1px solid #ddd;
+	.notification-flow-actions {
+		margin-top: 20px;
+		display: flex;
+		gap: 10px;
+		justify-content: flex-end;
+	}
+}
 
-// 	.node-header {
-// 		font-weight: bold;
-// 		padding: 4px;
-// 		margin-bottom: 8px;
-// 		border-radius: 3px;
-// 		font-size: 10px;
-// 		text-transform: uppercase;
+// Node styles
+.trigger-node,
+.action-node,
+.condition-node {
+	padding: 10px;
+	border-radius: 5px;
+	width: 180px;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	border: 1px solid #ddd;
 
-// 		&.trigger {
-// 			background-color: #e6f7ff;
-// 			color: #1890ff;
-// 		}
+	.node-header {
+		font-weight: bold;
+		padding: 4px;
+		margin-bottom: 8px;
+		border-radius: 3px;
+		font-size: 10px;
+		text-transform: uppercase;
 
-// 		&.action {
-// 			background-color: #f6ffed;
-// 			color: #52c41a;
-// 		}
+		&.trigger {
+			background-color: #e6f7ff;
+			color: #1890ff;
+		}
 
-// 		&.condition {
-// 			background-color: #fff7e6;
-// 			color: #fa8c16;
-// 		}
-// 	}
+		&.action {
+			background-color: #f6ffed;
+			color: #52c41a;
+		}
 
-// 	.node-content {
-// 		padding: 8px;
-// 	}
-// }
+		&.condition {
+			background-color: #fff7e6;
+			color: #fa8c16;
+		}
+	}
+
+	.node-content {
+		padding: 8px;
+	}
+}
+
+*/
+
 .flow-canvas {
 	width: 100%;
 	height: calc(100vh - 64px - 64px); // Subtract header and footer heights

@@ -13,10 +13,10 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 
-import { ConditionNode } from "../nodes/ConditionNode";
-import { CustomEdge } from "../edges/CustomEdge";
-import { TriggerNode } from "../nodes/TriggerNode";
-import { ActionNode } from "../nodes/ActionNode";
+import { TriggerNode } from "./nodes/TriggerNode";
+import { ActionNode } from "./nodes/ActionNode";
+import { CustomEdge } from "./edges/CustomEdge";
+import { ConditionNode } from "./nodes/ConditionNode";
 
 const nodeTypes = {
 	triggerNode: TriggerNode,
@@ -39,7 +39,7 @@ const initialNodes: Node[] = [
 
 const initialEdges: Edge[] = [];
 
-export const FlowBuilder: React.FC = () => {
+export const FlowBuilderCanvas: React.FC = () => {
 	const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
 	const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
 

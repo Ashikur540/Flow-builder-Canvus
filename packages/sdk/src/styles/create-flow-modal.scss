@@ -1,0 +1,25 @@
+.create-flow-modal {
+	.ant-modal-content {
+		padding: 24px;
+	}
+
+	.ant-form-item-label {
+		font-weight: 600;
+	}
+
+	input,
+	.ant-select-selector {
+		height: 38px !important;
+	}
+
+	.form-actions {
+		margin-top: 24px;
+		text-align: right;
+
+		&__buttons {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+		}
+	}
+}
